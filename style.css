@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+.container-fluid{
+    justify-content: center;
+}
+body{
+    background-color:#a7c5e4; 
+}
+nav{
+    width: 80%;
+    background-color:#769ECB; 
+    margin: 2% 10%;  
+}
+.current-location{
+    width: 90%;
+}
+.current-location img{
+    width: 80%;
+}
+.current-location-details{
+    background-color:#769ECB; 
+    width: 100%;
+}
+table img{
+    width: 80%;
+}
+.current-location-details table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.current-location-details td {
+    padding: 2%;
+    text-align: center;
+  }
+.other-details{
+    width: 100%;
+}
+.other{
+    background-color:#769ECB; 
+    border-radius: 4%;
+    width:50%;
+    height: 100%;
+}
+aside{
+    float: right;
+    width: 100%;
+}
+aside img{
+    width: 20%;
+    margin: 10%;
+}
+aside {
+    flex: 1.5;
+    padding: 10px;
+    margin-right: 3%;
+}
+  
+main {
+    flex: 2.5;
+    margin-left: 3%;
+    padding: 10px;
+  }
+.container{
+  width: 100%;
+}
+a{
+    color:#ffffff; 
+}
+h1, p{
+    color:#ffffff;
+}
+.day, .day table{
+    background-color:#769ECB; 
+}
+.day tr:nth-child(even) {
+    border-bottom: 1px solid #ffffff;
+  }
+  
+.day tr td {
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 100%;
+  }
+  
+.day tr:last-child td {
+    border-bottom: none;
+  }
+.day img{
+    width: 97%;
+}
+.other-details{
+    width: 100%;
+    margin: 1%;
+    background-color: none;
+}
+.other-details table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.other-details table td {
+    padding-top: 4%;
+    padding-left: 4%;
+    text-align: left;
+  }
+.other-details h4{
+    font-weight: normal;
+}
+.other-details h6{
+   font-weight: lighter;
+}
+.other-details .other{
+    width: 100%;
+    justify-content: center;
+}
+.carousel-indicators{
+    margin-bottom: 0%;
+  }
+.current-location-details th:nth-child(even), .current-location-details td:nth-child(even) {
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+  }
+  .card{
+    background-color:#769ECB; 
+  }
+  /* Styles dành cho màn hình từ 768px trở lên */
+  @media (max-width: 992px) {
+    .day{
+      display: none;
+  }
+  .day-mini, .day-mini table{
+      background-color:#769ECB; 
+  }
+  .day-mini tr:nth-child(even) {
+      border-bottom: 1px solid #ffffff;
+    }
+    
+  .day-mini tr td {
+      padding: 5px;
+      border-bottom: 1px solid #ffffff;
+      font-size: 100%;
+    }
+    
+  .day-mini tr:last-child td {
+      border-bottom: none;
+    }
+  .day-mini img{
+      width: 60%;
+  }
+    main{
+      display: none;
+    }
+    .current-location-details-mini {
+      width: 80%;
+      margin-left: 10%;
+      background-color:#769ECB; 
+    }
+    .current-location-details-mini th:nth-child(even), .current-location-details-mini td:nth-child(even) {
+      border-left: 2px solid #ffffff;
+      border-right: 2px solid #ffffff;
+    }
+    .detail{
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+  /* Styles dành cho màn hình từ 992px trở lên */
+  @media (min-width: 993px) {
+    .mini{
+      display: none;
+    }
+  }
